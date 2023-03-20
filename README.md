@@ -12,6 +12,17 @@ Author:  Shahram Ghandeharizadeh (shahram@usc.edu)
   * The algorithms are detailed in a paper that appeared in the ACM Multimedia 2022 paper with an extended arXiv version.
   * Click here for Bibtex citation of the [ACM Multimedia 2022 paper](https://github.com/shahramg/FLS-Multimedia2022#citations).
 
+# Limitations
+1. In computing travelled distance, this software assumes an FLS flys a straight line from its source (say a dispatcher) to its destination.
+2. The provided software assumes two FLSs may colide if their travel paths (a stright line) intersects.  It does not model the possibility of an FLS traveling slower than its anticipated speed.  Or, FLSs catching up with one another.  
+3. The provided software computes travel paths.  It does not emulate an FLS flying from its source to its destination.
+4. The provided software does not implement a communication network for FLSs.
+
+# Getting the Source
+```bash
+git clone https://github.com/shahramg/FLSbagfiles
+```
+
 # Documentation
 
 This section describes how to run and benchmark algorithms for static and motion illumination in turn.
@@ -85,15 +96,6 @@ diffTbl=utilCubeCmpTwoPCs(cpa{i-1}, cpa{i})
 [TravelPaths, totalIntraTravelDistance, totalInterTravelDistance, totalIntraFlights, totalInterFlights, ColorChanges] = algCubeChangeIntRAFirst(diffTbl, cpa{i-1}, cpa{i}, false, false)
 ```
 
-# Limitations
-1. In computing travelled distance, this software assumes an FLS flys a straight line from its source (say a dispatcher) to its destination.
-2. The provided software assumes two FLSs may colide if their travel paths (a stright line) intersects.  It does not model the possibility of an FLS traveling slower than its anticipated speed.  Or, FLSs catching up with one another.  
-3. The provided software computes travel paths.  It does not emulate an FLS flying from its source to its destination.
-4. The provided software does not implement a communication network for FLSs.
-
-# Getting the Source
-
-# Executing this Software
 
 # Citations
 
