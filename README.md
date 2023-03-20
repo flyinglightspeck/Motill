@@ -20,7 +20,7 @@ Author:  Shahram Ghandeharizadeh (shahram@usc.edu)
 
 # Getting the Source
 ```bash
-git clone https://github.com/shahramg/FLSbagfiles
+git clone git@github.com:flyinglightspeck/Motill.git
 ```
 
 # Documentation
