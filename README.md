@@ -103,7 +103,7 @@ Shahram Ghandeharizadeh. 2022. Display of 3D Illuminations using Flying Light Sp
 
 BibTex:
 ```
-@inproceedings{10.1145/3503161.3548250,
+@inproceedings{motill2022,
 author = {Ghandeharizadeh, Shahram},
 title = {Display of 3D Illuminations using Flying Light Specks},
 year = {2022},
@@ -113,6 +113,8 @@ address = {New York, NY, USA},
 doi = {10.1145/3503161.3548250},
 booktitle = {ACM Multimedia},
 location = {Lisboa, Portugal},
+url = {https://doi.org/10.1145/3503161.3548250},
+doi = {10.1145/3503161.3548250},
 series = {MM '22}
 }
 ```
